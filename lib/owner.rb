@@ -4,6 +4,18 @@ class Owner
 
   @@all = []
 
+  def self.all
+    @@all
+  end
+
+  def self.reset_all
+    @@all.clear
+  end
+
+  def self.count
+    @@all.length
+  end
+
   def initialize(name)
     @species = species
     @name = name
