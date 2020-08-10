@@ -21,6 +21,5 @@ class Owner
     @name = name
     @pets = {cats: [], dogs: []}
     @@all << self
-    owner.name = "Evan"
   end
 end
