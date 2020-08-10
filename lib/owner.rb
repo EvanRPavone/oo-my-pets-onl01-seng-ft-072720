@@ -16,7 +16,7 @@ class Owner
     @@all.length
   end
 
-  def initialize(name="Evan")
+  def initialize(name, species="human")
     @species = species
     @name = name
     @@all << self
